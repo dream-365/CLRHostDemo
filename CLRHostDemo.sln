@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CLRHostDemo", "CLRHostDemo\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManangedLib", "ManangedLib\ManangedLib.csproj", "{2D06D593-6D00-41A5-9093-0B2196A36C4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManangedConsoleApp", "ManangedConsoleApp\ManangedConsoleApp.csproj", "{E8DFA2FD-AAC9-4780-BD50-211AA60C285B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,16 @@ Global
 		{2D06D593-6D00-41A5-9093-0B2196A36C4E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{2D06D593-6D00-41A5-9093-0B2196A36C4E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{2D06D593-6D00-41A5-9093-0B2196A36C4E}.Release|Win32.ActiveCfg = Release|Any CPU
+		{E8DFA2FD-AAC9-4780-BD50-211AA60C285B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8DFA2FD-AAC9-4780-BD50-211AA60C285B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8DFA2FD-AAC9-4780-BD50-211AA60C285B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E8DFA2FD-AAC9-4780-BD50-211AA60C285B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E8DFA2FD-AAC9-4780-BD50-211AA60C285B}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{E8DFA2FD-AAC9-4780-BD50-211AA60C285B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8DFA2FD-AAC9-4780-BD50-211AA60C285B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8DFA2FD-AAC9-4780-BD50-211AA60C285B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E8DFA2FD-AAC9-4780-BD50-211AA60C285B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E8DFA2FD-AAC9-4780-BD50-211AA60C285B}.Release|Win32.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

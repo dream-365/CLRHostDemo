@@ -18,6 +18,8 @@ using namespace mscorlib;
 
 void CleanUp(ICLRMetaHost *pMetaHost, ICLRRuntimeInfo *pRuntimeInfo, ICLRRuntimeHost *pClrRuntimeHost);
 
+int RunInDefaultAppDomain(PCWSTR pszVersion, PCWSTR pszAssemblyPath, PCWSTR pszClassName);
+
 int _tmain(int argc, _TCHAR* argv[])
 {
 
@@ -27,6 +29,13 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	PCWSTR pszClassName = L"ManangedLib.TestClass";
 
+	RunInDefaultAppDomain(pszVersion, pszAssemblyPath, pszClassName);
+
+	return 0;
+}
+
+int RunInDefaultAppDomain(PCWSTR pszVersion, PCWSTR pszAssemblyPath, PCWSTR pszClassName)
+{
 	HRESULT hr;
 
 	ICLRMetaHost *pMetaHost = NULL;
@@ -142,13 +151,14 @@ int _tmain(int argc, _TCHAR* argv[])
 	// pwzArgument represents the string value passed as a parameter to that 
 	// method. If the HRESULT return value of ExecuteInDefaultAppDomain is 
 	// set to S_OK, pReturnValue is set to the integer value returned by the 
-	// invoked method. Otherwise, pReturnValue is not set.
+	// invoked method. Otherwise, pReturnValue is not set
+
 
 	hr = pClrRuntimeHost->ExecuteInDefaultAppDomain(
 		pszAssemblyPath,
-		pszClassName, 
-		pszStaticMethodName, 
-		pszStringArg, 
+		pszClassName,
+		pszStaticMethodName,
+		pszStringArg,
 		&dwLengthRet);
 
 
