@@ -1,3 +1,6 @@
+// demo for loading managed class lib in unmanaged code
+// .NET Runtime Version: v4.0.30319
+
 #pragma region Includes and Imports
 
 #include "stdafx.h"
