@@ -24,7 +24,7 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="OfficeExtensionTest.h">
+    <ClInclude Include="Connect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -32,11 +32,18 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="OfficeExtensionTest.cpp">
+    <ClCompile Include="Connect.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="dllmain.cpp">
+    <ClCompile Include="ExtModule.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ExtModule.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="C:\Users\jec\Desktop\CLSID_REG.reg" />
+    <None Include="C:\Users\jec\Desktop\OFF_COM_ADDIN.reg" />
   </ItemGroup>
 </Project>

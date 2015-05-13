@@ -1,0 +1,2 @@
+#include <objbase.h>
+
