@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManangedLib", "ManangedLib\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManangedConsoleApp", "ManangedConsoleApp\ManangedConsoleApp.csproj", "{E8DFA2FD-AAC9-4780-BD50-211AA60C285B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OfficeExtensionTest", "OfficeExtensionTest\OfficeExtensionTest.vcxproj", "{AB730BF0-B097-4FFB-8250-08B922EDEEB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,16 @@ Global
 		{E8DFA2FD-AAC9-4780-BD50-211AA60C285B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{E8DFA2FD-AAC9-4780-BD50-211AA60C285B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{E8DFA2FD-AAC9-4780-BD50-211AA60C285B}.Release|Win32.ActiveCfg = Release|Any CPU
+		{AB730BF0-B097-4FFB-8250-08B922EDEEB2}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{AB730BF0-B097-4FFB-8250-08B922EDEEB2}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{AB730BF0-B097-4FFB-8250-08B922EDEEB2}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{AB730BF0-B097-4FFB-8250-08B922EDEEB2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AB730BF0-B097-4FFB-8250-08B922EDEEB2}.Debug|Win32.Build.0 = Debug|Win32
+		{AB730BF0-B097-4FFB-8250-08B922EDEEB2}.Release|Any CPU.ActiveCfg = Release|Win32
+		{AB730BF0-B097-4FFB-8250-08B922EDEEB2}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{AB730BF0-B097-4FFB-8250-08B922EDEEB2}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{AB730BF0-B097-4FFB-8250-08B922EDEEB2}.Release|Win32.ActiveCfg = Release|Win32
+		{AB730BF0-B097-4FFB-8250-08B922EDEEB2}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
